@@ -1,0 +1,5620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tmx SYSTEM "http://www.gala-global.org/oscarStandards/tmx/tmx14.dtd">
+<tmx version="1.4">
+  <header creationtoolversion="0.1a" datatype="plaintext" o-tmf="csv" creationtool="loki" srclang="en-GB" adminlang="de" segtype="sentence"/>
+  <body>
+    <tu tuid="INTERNAL_LOCALIZATION_VERSION_GAME">
+      <note>ID=INTERNAL_LOCALIZATION_VERSION_GAME : Version of this file, no string for the game</note>
+      <prop type="x-target">Server</prop>
+           <tuv xml:lang="nl-NL">
+        <seg>RN_Game_V.3.02</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_">
+      <note>character limit </note>
+           <tuv xml:lang="nl-NL">
+        <seg/>
+      </tuv>
+    </tu>
+		<tu tuid="IDS_CITY_NAME_001_0">
+            <prop type="x-target">Both</prop>
+			<note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+			<tuv xml:lang="de-DE">
+			<seg>Lünenmoor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_002_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Großfelden</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_003_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Vierbrücken</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_004_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Essbach</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_005_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Tannhausen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_006_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Talfurt</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_007_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Schönblick</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_008_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Trilefeld</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_009_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Kleckersdorf</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_010_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Motzen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_011_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Vogelsang</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_012_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Fussen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_013_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Groß Mühlum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_014_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Mailheim</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_015_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Sandberg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_016_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Mönchen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_017_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Schwatzingen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_018_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Sinsweiler</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_019_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Borkwitz</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_020_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Kallmünz</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_021_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Muchingen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_022_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Zell</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_023_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Falkenfels</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_024_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Dahnen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_025_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Schwarzenreuth</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_026_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Hahnefeld</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_027_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Wittun</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_028_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Parsheim</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_029_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Untersee</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_030_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Sült</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_031_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Mühlaip</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_032_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Bad Ditzenheim</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_033_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Landsbach</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_034_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Finsdorf</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_035_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Niedersinsen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_036_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Quallenfurt</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_037_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Töpfen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_038_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Jersbek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_039_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Nassendohl</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_040_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Scheeseln</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_041_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Elmendorf</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_042_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Frankehof</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_043_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Volkoog</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_044_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Klotzen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_045_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Bad Neuenhain</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_046_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Krerath</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_047_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Villmaringen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_048_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Westerreuth</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_049_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Vogtswald</seg>
+			</tuv>
+		</tu>
+		<tu tuid="IDS_CITY_NAME_050_0">
+            <prop type="x-target">Both</prop>
+			<note>city name</note>
+			<tuv xml:lang="de-DE">
+			<seg>Neunleben</seg>
+			</tuv>
+		</tu>
+    <tu tuid="IDS_CITY_NAME_001_1">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="en-GB">
+        <seg>New Cork</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Blueville</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Wishington</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Millton</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Oakhill</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Westhill</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Niceview</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Petertown</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Lonkiln</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Oldtown</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Dorry</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Kittsburg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Longbridge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>New Green</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Statenborough</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Hartlefield</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Sandport</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Bolcott</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Branton</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Holdsworth</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Stockport</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Archville</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Maybury</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Camptown</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Loncaster</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Romsey</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Clock Haven</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Pureshore</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Liberty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Salt Springs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Eight Springs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Bluecreek</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Hugston</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Elsfield</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Kirktown</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Starling</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Oxbury</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Fort Crow</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Johnsboro</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>St Niclas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Springville</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Stillwater</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Rocksdale</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Blarington</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Chesterfield</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Courtville</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Sleighton</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Stamford</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Tuffington</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_1">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="en-GB">
+        <seg>Bellham</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_2">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Paux</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Payonne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Dalence</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Englet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Mont-d'Agen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Flermont-Terrand</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Beaurillac</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Clercy</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Moulin-Vert</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Lacaneu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Triom</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Montluc</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Blisieux</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Saint-Floraine</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Pourlaville</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>L'Argentant</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Cannion</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Saint-Trélo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Grégny</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Clemençon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Le Breusot</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Chalon-sur-Noire</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Fleaune</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Fleury-les-Dreux</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Dois</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Hordeaux</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Clomart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Crémont</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Sedin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Serafin-de-L'eau</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Loyes-sur-Seine</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Flusbourg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Bachhausen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Buschheim</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Trelfort</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Sesouly</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Montalier</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Gole</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Le Petit-Havre</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Avreux</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Montreuse</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Champagne-sur-Crépy</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Granterre</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Bretingne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Montcourt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Lapignan</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Carcachon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Blunel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Limes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_2">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="fr-FR">
+        <seg>Brives-La-Muret</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_3">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Nybodarna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Blåkullarna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Fagernäs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Kvarnköping</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Ekeborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Västervalla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Lyckelunda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Gladahammar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Kronholm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Gammelby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Västersund</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Blomsterborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Skogstuna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Grönköping</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Solskensvik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Guldfälten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Österstrand</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Storskogen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Backeboda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Svalholm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Rosenhamn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Kotteby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Lövliden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Talletorp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Liljehagen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Trolleberga</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Sjöviken</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Klarsund</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Frisundet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Saltkällorna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Strömbäcken</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Vargforsen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Silverberga</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Ljungbacken</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Stocksala</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Glimmerby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Oxbacka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Kråkeborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Örnfallet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Himlamark</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Sjösätra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Björkgläntan</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Stendalen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Byggebo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Dalsäng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Spegeldammen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Älvängarna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Daggdalen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Solhöjden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_3">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="sv-SE">
+        <seg>Ringhamn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_4">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="no-NO">
+        <seg>Mø i Rana</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Stevanger</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Bergan</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Molte</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Kristinesand</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Atla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Sognvik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Skian</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Hummerfest</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Uslo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Dramman</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Lillestrum</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Grusnes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Trondvik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Tromsu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Saltsborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Ålevik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Måkesund</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Hanefoss</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Lillehummer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Narrevik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Bødo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Hemar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Kirketun</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Kautopåkeino</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Eikersund</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Harestad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Mjosa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Laksevik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Ransvik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Sundefjord</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Bryte</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Kristinesund</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Stabukk</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Mjøddalen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Kongssviker</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Fredriksted</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Elvevik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Gofoten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Larveik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Geila</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Dageli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Ankervik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Askimo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Faukse</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Flikkefjord</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Krageri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Måss</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Notidden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_4">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="no-NO">
+        <seg>Rjuken</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_5">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Hamsterdam</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Vlotterdam</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Den Zaag</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Kroningen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Haarklem</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Den Vosch</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Leliedorp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Kaastricht</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Middelbrug</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Arren</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Beginhoven</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Zwelle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Tijgerwarden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Atrecht</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Steenwak</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Mijnegen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Haarenvaan</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Huurlen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Grazienaveen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Duurdrecht</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Elkmeer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Latjebreuk</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Zondvaart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Appeldoorn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Dementer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Olmelo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Negenaar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Derft</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Bloemendoel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Veulendam</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Brade</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Kalmere</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Frunneker</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Snaak</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Dalfzijl</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Raarmond</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Kerkrede</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Sitterd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Hilversom</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Tolburg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Enschade</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Arnhaar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Omersfaart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Zoondam</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Zoutermeer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Lieden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Ode</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Remmen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Veenlo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_5">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="nl-NL">
+        <seg>Holmend</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_6">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="da-DK">
+        <seg>Gammelstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Blåborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Tøfkilde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Dampstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Lokomotivstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Togerup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Jernbanekøbing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Sporskiftestrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Sireneborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Lyntogsstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kulpå</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Stålstad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Langtbortby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Nygrønstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Bjørneby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Majeristrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Sandelse</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Balladeby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Glasby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Gumlestrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Ringsnart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kartoffelby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Staldstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Lejrstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Futtrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Marmeladevænget</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Grankogleby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Nåleskovsvænget</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Friheden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Saltstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Otteberg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Snolderup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Stjerneby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Gammelby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kirkeby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Solstad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Okseby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Fort fjæsing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Fløjteberg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Bryggerkøbing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Ulfby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Troelsby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Borgerrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Skinneborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Espeløvstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Humleby</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Keidingstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Pinnerupstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Rarhus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_6">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Gøbenhavn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_7">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Нью Корк</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Синевилль</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Вишингтон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Миллтон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Окхилл</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Вестхилл</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Нью Васюки</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Петертаун</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Лонкильн</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Олдтаун</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Дорри</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Котэбург</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Лонгбридж</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Нью Грин</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Статенборо</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Хартфилд</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Сандпорт</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Болкотт</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Брантон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Холсуорт</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Стокпорт</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Арчвилль</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Мейбури</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Кэмптаун</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Лонкастер</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Ромси</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Клок Хевен</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Чистый залив</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Либерти</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Солт Спрингс</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Эйт Спрингс</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Блюкрик</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Хагстон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Элсфилд</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Кирктаун</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Старлинг</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Оксбури</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Форт Кроу</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Джонсборо</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Ст. Никлас</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Спрингвилль</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Стилуотер</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Роксдейл</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Бларингтон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Честерфилд</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Куртвилль</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Слейтон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Стамфорд</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Таффингтон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_7">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="ru-RU">
+        <seg>Беллхам</seg>
+      </tuv>
+    </tu>
+	    <tu tuid="IDS_CITY_NAME_001_8">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Azinheira</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Marvila</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Ratoeira</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Moinho-Verde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Mata das Bruxas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vila Torta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Belavista</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Madrana</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Entrelinhas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Venda das Pulgas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Valefundo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Malavado</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Gaudela</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Castelo-d'Ó</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Covadela</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Barca d'Alma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vila d'Água</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Porto Corvo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Fonte-Seca</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Palheiros</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Setais</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vale da Fonte</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Monte da Pena</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Torres Altas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Monte da Lua</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Castro Redondo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Cruzalinhas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Cruz-quebrada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Praia da Amendoeira</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Nascente Salgada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Salmor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Clareira das Almas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Roseira-Brava</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vale Fundo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Orvalho Manso</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Pinhal da Louca</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Terra Negra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Três-Irmãs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Consolação</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Lago da Carne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Lajes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Eira Grande</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vinha Ruiva</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Memória</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Monte das Naus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Praça Velha</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Penedos Perdidos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vendavais</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Quinta dos Lobos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_8">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Menina d'Oiro</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_9">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Tatava</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Sanrı</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Angıra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Sardalya</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Zartvin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Baydın</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Alıkesir</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Bıngıldak</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Bingool</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Bilikids</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Yaylıturta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Tepsikule</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Tamtakır</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Kumseli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Denizsiz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Niyarmakır</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Dedirme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>İlağzı</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Zirzincan</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Bırzurum</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Eskipeynir</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Gezinentef</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Girmeyesun</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Gusulhane</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Harakiri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Yatay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Iskarta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Kelsin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>İsyanbul</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Kızmir</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Pars</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Kestimoni</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Valsyeri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Kırkkerededi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Sırşehir</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Hanımeli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Hanya</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Larisa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Pantalonsalaş</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Tuğla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Kuş</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Devşehir</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Düzmece</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Daradüt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Betmen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Yarıklüle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Aşık</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Tirapzon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>İğde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_9">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="tr-TR">
+        <seg>Sensun</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_11">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="el-GR">
+        <seg>Phessaloniki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Serves</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Cornithos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Panthi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Halvida</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Alisveri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Pianokladi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Latra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Tyrgos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Palamata</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Kabala</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klopea</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Tridymotoiho</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Tarrissa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Thima</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Domolos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Vrama</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Patrelini</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Nyfadia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Tholos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Zeria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Naspoussa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Lykohori</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Kalamassa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Plygourio</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klataronas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Psilida</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Iptea</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Salamaria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klapaniona</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Elattona</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Gemara</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Valimeri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Parystos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Maliros</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klapopyrgos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Lavros</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Minidio</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Lastipitsa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Petrina</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Marouli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Trilesi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Darkya</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Spartia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Neupolio</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Mandres</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Dipolis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Atalante</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Vassia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_11">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Eleukis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_12">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+           <tuv xml:lang="da-DK">
+        <seg>Gammelstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Blåborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Tøfkilde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Dampstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Lokomotivstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Togerup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Jernbanekøbing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Sporskiftestrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Sireneborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Lyntogsstrup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kulpå</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Stålstad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Grusnes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Trondvik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Tromsu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Saltsborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Ålevik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Måkesund</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Hanefoss</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Lillehummer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Narrevik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Bødo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Hemar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kirketun</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Dementer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Olmelo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Negenaar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Derft</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Bloemendoel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Veulendam</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Brade</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kalmere</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Frunneker</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Snaak</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Dalfzijl</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Raarmond</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kerkrede</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Kråkeborg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Örnfallet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Himlamark</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Sjösätra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Björkgläntan</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Stendalen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Byggebo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Dalsäng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Spegeldammen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Älvängarna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Daggdalen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Solhöjden</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_12">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+           <tuv xml:lang="da-DK">
+        <seg>Ringhamn</seg>
+      </tuv>
+    </tu>
+	    <tu tuid="IDS_CITY_NAME_001_13">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="it-IT">
+        <seg>Dragania</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Impervia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Shardala</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Capovento</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Montargento</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Milasano</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Roccaferro</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Eporadia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Melalbero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Nagabria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Norandia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Fiumebianco</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Portanova</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Cerasia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Porto loco</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Bosconero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Fortegrande</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it_IT">
+        <seg>Roccarubia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Vinagria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Maltenga</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Rianto</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Ferratia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Aspoli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Spertia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Osteriano</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klataronas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Psilida</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Iptea</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Salamaria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klapaniona</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Elattona</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Gemara</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Valimeri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Parystos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Maliros</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Klapopyrgos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Lavros</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Minidio</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Lastipitsa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Petrina</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Marouli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Trilesi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Darkya</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Spartia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Neupolio</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Mandres</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Dipolis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Atalante</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Vassia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_13">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="el-GR">
+        <seg>Eleukis</seg>
+      </tuv>
+    </tu>
+	    <tu tuid="IDS_CITY_NAME_001_14">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="it-IT">
+        <seg>Dragania</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Impervia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Shardala</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Capovento</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Montargento</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Milasano</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Roccaferro</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Eporadia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Melalbero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Nagabria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Norandia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Fiumebianco</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Portanova</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Cerasia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Porto loco</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Bosconero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Fortegrande</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Roccarubia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Vinagria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Maltenga</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Rianto</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Ferratia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Aspoli</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Spertia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Osteriano</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Bluesi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Roccari</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Gognati</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Severiano</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Borgolargo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Altoguado</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Lucresia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Clainoro</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Arianuova</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Spircton</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Dantia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Belvecchio</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Cervizia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Scatania</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Storiolo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Roccadoro</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Ramolungo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Pietralancia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Barivilla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Chianosso</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Zuccaria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Miralago</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Porto Snarri</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Merturi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_14">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="it-IT">
+        <seg>Bellariva</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_001_15">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="es-ES">
+        <seg>Nierja</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Biergo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Almancía</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Medriz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Orivela</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Férez</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Andanilla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Fuencarrada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Valcarcero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>San Belán</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Vega de Luna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Alcazarcillos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Ponteblanco</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Guadalivara</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Monteumbrío</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Oledo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Dérida</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Bentán</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Las Cadenas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Peñes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Muellevela</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Xendo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Liugo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Robiedo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Adalpín</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Caredoz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Torrelaveda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Marvega</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>La Fireda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Fuentevés</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Ochocaños</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Lagogrís</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Sáceres</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Hoyaique</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Dasilia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Menquil</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>La Loma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Airealegre</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Barrencilla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Santomás</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Villadorada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Aguamansa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Rocarrío</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Almanda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Peñarejo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Fenael</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Imoria</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Sanferrada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Yencia</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_15">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Ugroño</seg>
+      </tuv>
+    </tu>	
+	<tu tuid="IDS_CITY_NAME_001_16">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="es-ES">
+        <seg>Nierja</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Biergo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Almancía</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Medriz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Orivela</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Férez</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Andanilla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Fuencarrada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Valcarcero</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>San Belán</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Vega de Luna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Alcazarcillos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Ponteblanco</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Guadalivara</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Monteumbrío</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Oledo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Dérida</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Bentán</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Las Cadenas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Peñes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Muellevela</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Xendo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Liugo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Robiedo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="es-ES">
+        <seg>Adalpín</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Castro Redondo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Cruzalinhas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Cruz-quebrada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Praia da Amendoeira</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Nascente Salgada</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Salmor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Clareira das Almas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Roseira-Brava</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vale Fundo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Orvalho Manso</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Pinhal da Louca</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Terra Negra</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Três-Irmãs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Consolação</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Lago da Carne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Lajes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Eira Grande</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vinha Ruiva</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Memória</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Monte das Naus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Praça Velha</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Penedos Perdidos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Vendavais</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Quinta dos Lobos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_16">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pt-PT">
+        <seg>Menina d'Oiro</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
