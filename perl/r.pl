@@ -12,14 +12,13 @@ use RN;
 
 my $login_data = do '../../login.pld';
 
-my $rn = new RN %$login_data;
+my $rn = new RN %$login_data, logfile=>'t.log';
 
 my $cv = AE::cv;
 
 $rn->login;
-print Dumper $rn;
-
-print Dumper $rn->req(TrainInterface => getMyTrains => [])->recv;
+$rn->log(Dumper $rn);
+#$rn->log(Dumper $rn->req(Train => getMyTrains => [])->recv);
 
 
 $cv->recv;

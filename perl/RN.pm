@@ -22,6 +22,11 @@ sub new {
 
 sub log {
     my $self = shift;
+    if ($self->{logfile}) {
+        open F, '>>', $self->{logfile};
+        print(F @_, "\n");
+        close F;
+    }
     print(@_, "\n");
 }
 
@@ -58,8 +63,13 @@ sub login {
                      });
     $cv->recv; $cv = AE::cv;
 
-    print Dumper $self->req(PropertiesInterface => getData => [])->recv();
-    print Dumper $self->req(AccountInterface => is_logged_in => [$self->{key}])->recv();
+    $self->{w}->{properties} = $self->req(Properties => getData => [])->recv()->{properties};
+    my $me = $self->{me} = $self->req(Account => is_logged_in => [$self->{key}])->recv();
+    $cv->begin; $self->req(GUI => get_initial_gui =>[])->cb(sub{ $self->{w}->{GUI} = $_[0]->recv; $cv->end; });
+    $cv->begin; $self->req(Location => get =>[])->cb(sub{ $self->{w}->{Location} = $_[0]->recv; $cv->end; });
+    $cv->begin; $self->req(Rail => get => [$me])->cb(sub{ $self->{w}->{Rail} = $_[0]->recv; $cv->end; });
+    $cv->begin; $self->req(Train => getTrains => [JSON::true, $me])->cb(sub{ $self->{w}->{Train} = $_[0]->recv; $cv->end; });
+    $cv->recv;
 }
 
 
@@ -82,7 +92,7 @@ sub rail_http {
 sub req {
     my ($self, $iface, $method, $arg ) =@_;
     my $ret = AE::cv;
-    http_request(POST => $self->{burl}.'rpc/flash.php'.'?interface='.$iface.'&method='.$method,
+    http_request(POST => $self->{burl}.'rpc/flash.php'.'?interface='.$iface.'Interface&method='.$method,
                  headers => {
                      Referer        => $self->{burl},
                      'User-Agent'   => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0',
@@ -100,7 +110,10 @@ sub req {
                  persistent => 1,
                  sub {
                      # XXX error handling here
-                     $ret->send(@_);
+                     my ($body, $header) =@_;
+                     return $ret->croak($body, $header) if !$body or $body =~/^{"number":/;
+                     $body = $json->decode($body);
+                     $ret->send($body->{Body});
                  });
     $ret;
 }
