@@ -16,20 +16,9 @@ sub new {
     die "Need numeric world unless" unless $args{world}=~/^\d+$/;
     die "need email and pass" unless $args{email} and $args{pass};
     $args{url} ||= 'http://www.railnation.ru/#login';
+    die "logcb must be a code" unless ref $args{logcb} eq 'CODE';
     return bless {%args, cookie=>{}, lurl=>$args{url} }, $class;
 }
-
-
-sub log {
-    my $self = shift;
-    if ($self->{logfile}) {
-        open F, '>>', $self->{logfile};
-        print(F @_, "\n");
-        close F;
-    }
-    print(@_, "\n");
-}
-
 
 sub login {
     my ($self) = @_;
@@ -40,7 +29,7 @@ sub login {
                          '&password='.uri_escape_utf8($self->{pass}).
                              '&remember_me=1&submit=%D0%92%D1%85%D0%BE%D0%B4',
                      sub {
-                         $self->log("password sent");
+                         $self->{logcb}->("password sent");
                          $cv->send;
                      });
     $cv->recv; $cv = AE::cv;
@@ -51,24 +40,27 @@ sub login {
                      sub {
                          ($self->{burl}, $self->{key}) = ($_[0] =~m|document.location.href="(http://[^\?]+)\?key=([^"]+)";|);
                          die "Something wrong with parsing" unless $self->{burl} and $self->{key};
-                         $self->log("World Choosed ($self->{burl}, $self->{key}) ");
+                         $self->{logcb}->("World Choosed ($self->{burl}, $self->{key}) ");
                          $cv->send;
                      });
     $cv->recv; $cv = AE::cv;
 
     $self->rail_http(GET=>$self->{burl}.'?key='.$self->{key},
                      sub {
-                         $self->log("GET SMTH");
+                         $self->{logcb}->("GET SMTH");
                          $cv->send;
                      });
     $cv->recv; $cv = AE::cv;
 
-    $self->{w}->{properties} = $self->req(Properties => getData => [])->recv()->{properties};
-    my $me = $self->{me} = $self->req(Account => is_logged_in => [$self->{key}])->recv();
-    $cv->begin; $self->req(GUI => get_initial_gui =>[])->cb(sub{ $self->{w}->{GUI} = $_[0]->recv; $cv->end; });
-    $cv->begin; $self->req(Location => get =>[])->cb(sub{ $self->{w}->{Location} = $_[0]->recv; $cv->end; });
-    $cv->begin; $self->req(Rail => get => [$me])->cb(sub{ $self->{w}->{Rail} = $_[0]->recv; $cv->end; });
-    $cv->begin; $self->req(Train => getTrains => [JSON::true, $me])->cb(sub{ $self->{w}->{Train} = $_[0]->recv; $cv->end; });
+    $self->req(Properties => getData => [], sub {$cv->send; $self->{w}->{properties} = $_[0]->{properties} });
+    $cv->recv; $cv = AE::cv;
+    my $me; $self->req(Account => is_logged_in => [$self->{key}], sub { $cv->send; $me = $self->{me} = $_[0];});
+    $cv->recv; $cv = AE::cv;
+
+    $cv->begin; $self->req(GUI => get_initial_gui =>[], sub{ $self->{w}->{GUI} = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Location => get =>[], sub{ $self->{w}->{Location} = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Rail => get => [$me], sub{ $self->{w}->{Rail} = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Train => getTrains => [JSON::true, $me], sub{ $self->{w}->{Train} = $_[0]; $cv->end; });
     $cv->recv;
 }
 
@@ -90,8 +82,7 @@ sub rail_http {
 
 
 sub req {
-    my ($self, $iface, $method, $arg ) =@_;
-    my $ret = AE::cv;
+    my ($self, $iface, $method, $arg, $cb) =@_;
     http_request(POST => $self->{burl}.'rpc/flash.php'.'?interface='.$iface.'Interface&method='.$method,
                  headers => {
                      Referer        => $self->{burl},
@@ -111,11 +102,10 @@ sub req {
                  sub {
                      # XXX error handling here
                      my ($body, $header) =@_;
-                     return $ret->croak($body, $header) if !$body or $body =~/^{"number":/;
                      $body = $json->decode($body);
-                     $ret->send($body->{Body});
+                     @$ = "$iface, $method, $arg" if  $body->{number};
+                     $cb->($body->{Body});
                  });
-    $ret;
 }
 
 
