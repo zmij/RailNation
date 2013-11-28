@@ -508,7 +508,7 @@ function collectBonuses ( member, station ) {
                     }
                 );
             },
-            (next + 1) * 1000
+            (next * 1000 + 50)
         );
     }
 }
