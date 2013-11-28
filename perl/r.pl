@@ -20,6 +20,9 @@ my $rn = new RN %$login_data, logcb => sub { rlout(@_) };
 $rl = new AnyEvent::ReadLine::Gnu prompt => "> ", on_line => sub {
     if ($_[0] =~/^rn\s+(.+)$/i) {
         rlsay('RN: ', $1);
+    } elsif ($_[0] =~/^eval\s+(.+)$/i) {
+        rlsay('EVAL: ', $1);
+        rlout(Dumper eval $1);
     } else {
         rlout($_[0]);
     }
@@ -29,10 +32,10 @@ $rl = new AnyEvent::ReadLine::Gnu prompt => "> ", on_line => sub {
 my $cv = AE::cv;
 
 $rn->login;
-rlout(Dumper $rn);
+#rlout(Dumper $rn);
 #$rn->log(Dumper $rn->req(Train => getMyTrains => [])->recv);
 
-print "done\n";
+rlsay("done");
 $cv->recv;
 
 
