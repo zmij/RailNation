@@ -4,8 +4,8 @@
 // @description Bulk train commands, numbers watching. WARNING!!! Consumes a lot of gold!
 // @include     http://*.railnation.ru/web/?key=*
 // @version     1.4.0.1
-// @downloadURL	https://dl.dropboxusercontent.com/u/13257583/RailNation_Script.user.js
-// @updateURL	https://dl.dropboxusercontent.com/u/13257583/RailNation_Script.user.js
+// @downloadURL	https://github.com/Vany/RailNation/raw/master/script/RailNation_Script.user.js
+// @updateURL	https://github.com/Vany/RailNation/raw/master/script/RailNation_Script.user.js
 // @author		sergei.a.fedorov at gmail dot com
 // @require     http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js
 // @grant       GM_getValue
@@ -765,7 +765,7 @@ postCommand(
     	processTrains( 
     		'doMaintenance', 
     		function( train ) {
-    			return train.reliability < 94 && needsMaintenance(train);
+    			return train.reliability < GM_getValue( 'LastReliability', 90 ) && needsMaintenance(train);
     		}, 
     		null 
     	);
