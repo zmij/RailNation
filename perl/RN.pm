@@ -106,6 +106,7 @@ sub req {
                      @$ = "$iface, $method, $arg" if  $body->{number};
                      $cb->($body->{Body});
                  });
+    return;
 }
 
 

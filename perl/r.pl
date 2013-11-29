@@ -20,14 +20,17 @@ my $rn = new RN %$login_data, logcb => sub { rlout(@_) };
 $rl = new AnyEvent::ReadLine::Gnu prompt => "> ", on_line => sub {
     if ($_[0] =~/^rn\s+(.+)$/i) {
         rlsay('RN: ', $1);
+
     } elsif ($_[0] =~/^eval\s+(.+)$/i) {
         rlsay('EVAL: ', $1);
         rlout(Dumper eval $1);
+
     } elsif ($_[0] =~/^req\s+(\w+)\s+(\w+)\s+(\[.+\])\s*$/i) {
         my $data = eval $3;
         return rlsay(ERROR => $@) if $@;
-        my $g; $g = $rn->req($1, $2, $data, sub {undef $g; rlsay(got=>Dumper @_)});
+        $rn->req($1, $2, $data, sub {rlsay(got=>Dumper @_)});
         rlsay(requested =>"$1, $2, $3");
+
     } else {
         rlout($_[0]);
     }
