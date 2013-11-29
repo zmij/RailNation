@@ -1,0 +1,68 @@
+<html>
+    <!-- vim:ts=4:sw=4:expandtab:
+    -->
+    <head>
+        <title>Trains</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <script type="text/javascript" src="jquery-2.0.3.js"></script>
+        <script type="text/javascript" src="trains.js"></script>
+    </head>
+    <body>
+        <form>
+            <!--
+                r: 4:32, 1:21
+                b: 5:50, 1:21
+                k: 6:09, 1:21
+            -->
+            time: <input type="text" id="ftime"  value="300"/> w: <input type="text" id="wtime"  value="54"/> sec
+            <br/>
+            <input type="text" id="txt_0" value="Исида"/>
+            <input type="text" id="spd_0" value="120"/> <input type="text" id="acc_0" value="6"/> <input type="text" id="vol_0" value="8"/> <input type="text" id="res_0"/>
+            <br/><hr/>
+            <input type="text" id="txt_1" value="Исида"/>
+            <input type="text" id="spd_1" value="120"/> <input type="text" id="acc_1" value="6"/> <input type="text" id="vol_1" value="8"/> <input type="text" id="res_1"/>
+            <br/>
+            <input type="text" id="txt_2" value="Буйвол"/>
+            <input type="text" id="spd_2" value="110"/> <input type="text" id="acc_2" value="5"/> <input type="text" id="vol_2" value="7"/> <input type="text" id="res_2"/>
+            <br/>
+            <input type="text" id="txt_3" value="Коршун"/>
+            <input type="text" id="spd_3" value="100"/> <input type="text" id="acc_3" value="6"/> <input type="text" id="vol_3" value="6"/> <input type="text" id="res_3"/>
+            <br/><hr/>
+            <!--
+                Один
+                Дионис
+                Геракл
+                Прометей
+                Осирис
+                Морфей
+            -->
+            <input type="text" id="txt_4" value="Один"/>
+            <input type="text" id="spd_4" value="130"/> <input type="text" id="acc_4" value="10"/> <input type="text" id="vol_4" value="6"/> <input type="text" id="res_4"/>
+            <br/>
+            <input type="text" id="txt_5" value="Дионис"/>
+            <input type="text" id="spd_5" value="150"/> <input type="text" id="acc_5" value="18"/> <input type="text" id="vol_5" value="5"/> <input type="text" id="res_5"/>
+            <br/>
+            <input type="text" id="txt_6" value="Геракл"/>
+            <input type="text" id="spd_6" value="80"/>  <input type="text" id="acc_6" value="1"/> <input type="text" id="vol_6" value="10"/> <input type="text" id="res_6"/>
+            <br/>
+            <input type="text" id="txt_7" value="Прометей"/>
+            <input type="text" id="spd_7" value="100"/>  <input type="text" id="acc_7" value="4"/> <input type="text" id="vol_7" value="8"/> <input type="text" id="res_7"/>
+            <br/>
+            <input type="text" id="txt_8" value="Осирис"/>
+            <input type="text" id="spd_8" value="120"/> <input type="text" id="acc_8" value="7"/> <input type="text" id="vol_8" value="7"/> <input type="text" id="res_8"/>
+            <br/>
+            <input type="text" id="txt_9" value="Морфей"/>
+            <input type="text" id="spd_9" value="200"/> <input type="text" id="acc_9" value="5"/> <input type="text" id="vol_9" value="13"/> <input type="text" id="res_9"/> <input type="text" id="div_9" value="2"/>
+            <br/><hr/>
+            <input type="text" id="txt_10" value="Слон"/>
+            <input type="text" id="spd_10" value="65"/> <input type="text" id="acc_10" value="3"/> <input type="text" id="vol_10" value="9"/> <input type="text" id="res_10"/>
+            <br/>
+            <input type="submit" id="submit"/>
+        </form>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                    trains_init();
+            });
+        </script>
+    </body>
+</html>
