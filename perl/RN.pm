@@ -10,7 +10,6 @@ use Data::Dumper;
 
 my $json = new JSON;
 
-
 sub new {
     my ($class, %args) = @_;
     die "Need numeric world unless" unless $args{world}=~/^\d+$/;
@@ -57,13 +56,32 @@ sub login {
     my $me; $self->req(Account => is_logged_in => [$self->{key}], sub { $cv->send; $me = $self->{me} = $_[0];});
     $cv->recv; $cv = AE::cv;
 
-    $cv->begin; $self->req(GUI => get_initial_gui =>[], sub{ $self->{w}->{GUI} = $_[0]; $cv->end; });
-    $cv->begin; $self->req(Location => get =>[], sub{ $self->{w}->{Location} = $_[0]; $cv->end; });
-    $cv->begin; $self->req(Rail => get => [$me], sub{ $self->{w}->{Rail} = $_[0]; $cv->end; });
-    $cv->begin; $self->req(Train => getTrains => [JSON::true, $me], sub{ $self->{w}->{Train} = $_[0]; $cv->end; });
+    $cv->begin; $self->req(GUI      => get_initial_gui  => [],                  sub{ $self->{w}{GUI}        = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Location => get              => [],                  sub{ $self->{w}{Location}   = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Rail     => get              => [$me],               sub{ $self->{w}{Rail}       = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Train    => getTrains        => [JSON::true, $me],   sub{ $self->{w}{Train}      = $_[0]; $cv->end; });
+    $cv->begin; $self->req(Profile  => getVCard         => [[$me]],             sub{ $self->{w}{VCard}      = $_[0]{$me};
+        $self->get_corporation($cv);
+        $cv->end;
+    });
     $cv->recv;
 }
 
+sub get_corporation {
+    my ($self, $cv) = @_;
+    my $corp_id;
+
+    return if !$self->{w}{VCard}{corporation};
+    $corp_id = $self->{w}{VCard}{corporation}{corporation_id} || return;
+    $self->{logcb}->("WANNA $corp_id corporation");
+    $cv->begin; $self->req(Corporation => get => [$corp_id], sub {
+            $self->{w}{Corp} = $_[0];
+            delete $self->{w}{Corp}{image};
+            my $members = scalar @{$self->{w}{Corp}{members}};
+            $cv->end;
+            $self->{logcb}->("Got corporation $self->{w}{Corp}{name} with $members members");
+    });
+}
 
 sub rail_http {
     my $self = shift;
@@ -79,7 +97,6 @@ sub rail_http {
                  %arg, sub {$sub->(@_);});
     $self->{lurl} = $u;
 }
-
 
 sub req {
     my ($self, $iface, $method, $arg, $cb) =@_;
@@ -109,10 +126,8 @@ sub req {
     return;
 }
 
-
-
-
-
-
+# TODO
+sub load {}
+sub save {}
 
 1;
