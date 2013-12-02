@@ -28,11 +28,14 @@ $rl = new AnyEvent::ReadLine::Gnu prompt => "> ", on_line => sub {
         return rlsay(ERROR => $@) if $@;
         $rn->req($1, $2, $data, sub {rlsay(got=>Dumper @_)});
         rlsay(requested =>"$1, $2, $3");
+    } elsif ( $_[0] =~ /^get_clan_station/i) {
+        $rn->get_clan_station();
+    } elsif ( $_[0] =~ /^start_collectables/i) {
+        $rn->start_collectables();
     } else {
         rlout("NN: $_[0]");
     }
 };
-
 
 my $cv = AE::cv;
 

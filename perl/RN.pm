@@ -83,6 +83,56 @@ sub get_corporation {
     });
 }
 
+sub get_clan_station {
+    my ($self) = @_;
+    $self->{logcb}->("Wanna get corporation members");
+
+    return if !$self->{w}{Corp} || !$self->{w}{Corp}{members};
+    for my $member_id (0..$#{$self->{w}{Corp}{members}}) {
+        my $mid    = $member_id;
+        my $member = $self->{w}{Corp}{members}[$mid];
+        my $user_id = $member->{user_id};
+        $self->{logcb}->("Taking member $mid: $member->{name} [$user_id]");
+        $self->req(Buildings => getAll => [$user_id], sub {
+                $self->{w}{Corp}{members}[$mid]{Station} = $_[0];
+                $self->{logcb}->("Got $member->{name} buildings");
+        });
+    }
+}
+
+sub start_collectables {
+    my ($self) = @_;
+    my @collect_id = (9, 10, 11);
+
+    return if !$self->{w}{Corp} || !$self->{w}{Corp}{members};
+    for my $member_id (0..$#{$self->{w}{Corp}{members}}) {
+        my $mid    = $member_id;
+        my $member = $self->{w}{Corp}{members}[$mid];
+        my $user_id = $member->{user_id};
+
+        next if !$member->{Station};
+
+        for my $i (0..$#collect_id) {
+            my $bid = $collect_id[$i];
+            my $bld = $member->{Station}{$bid};
+            if( $bld->{productionTime} == 0) {
+                $self->{logcb}->("Wanna collect $member->{name} $bid");
+                my $params;
+                if($member->{user_id} eq $self->{me}) {
+                    $params = [$bid,$member->{user_id}];
+                }
+                else {
+                    $params = [$bid];
+                }
+
+                $self->req(Buildings => collect => $params, sub {
+                    $self->{logcb}->("Collected $member->{name} $bid");
+                });
+            }
+        }
+    }
+}
+
 sub rail_http {
     my $self = shift;
     my $sub = pop;
