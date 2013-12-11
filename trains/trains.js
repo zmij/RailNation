@@ -9,7 +9,8 @@ function trains_show() {
     var ftime = 0+$('#ftime').val();
     var w = 0+$('#wtime').val();
     var mtime = 0+(ftime-w)/2;
-    var d = 0+dist_from_time( mtime, $('#spd_0').val(), $('#acc_0').val() );
+    var d = Math.round(dist_from_time( mtime, $('#spd_0').val(), $('#acc_0').val() ) / 125) * 125;
+    $('#dist').val( d );
     console.log(d);
 
     var out = [];
