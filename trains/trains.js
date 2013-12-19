@@ -22,24 +22,22 @@ function train_form_line(id, train) {
 }
 
 function trains_load() {
-    $.getJSON("trains.json", function(data, textStatus) {
-        console.log("Json loaded " + textStatus);
-        console.log(data);
-        var items = [];
-        var idx = 0;
-        for (var i = 0; i < data.trains.length; i++) {
-            var train = data.trains[i];
-            if (train.name == 'hr') {
-                items.push("<hr/>\n");
-            } else {
-                console.log(train.name + ' ' + train.slots);
-                items.push( train_form_line(idx, train) );
-                idx++;
-            }
+    var data = train_data();
+    console.log(data);
+    var items = [];
+    var idx = 0;
+    for (var i = 0; i < data.trains.length; i++) {
+        var train = data.trains[i];
+        if (train.name == 'hr') {
+            items.push("<hr/>\n");
+        } else {
+            console.log(train.name + ' ' + train.slots);
+            items.push( train_form_line(idx, train) );
+            idx++;
         }
-        $('#trains').append(items.join(''));
-        trains_init();
-    });
+    }
+    $('#trains').append(items.join(''));
+    trains_init();
 }
 
 function trains_show() {

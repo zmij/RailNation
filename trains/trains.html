@@ -5,88 +5,15 @@
         <title>Trains</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <script type="text/javascript" src="jquery-2.0.3.js"></script>
+        <script type="text/javascript" src="train_data.js"></script>
         <script type="text/javascript" src="trains.js"></script>
     </head>
     <body>
         <form>
-            <!--
-                r: 4:32, 1:21
-                b: 5:50, 1:21
-                k: 6:09, 1:21
-            -->
             time: <input type="text" id="ftime"  value="300"/> w: <input type="text" id="wtime"  value="54"/> sec d: <input type="text" id="dist" value="?"/>
             <br/>
             <div id="trains">
             </div>
-
-            <!--
-            <input type="text" id="txt_0" value="Исида"/>
-            <input type="text" id="spd_0" value="120"/> <input type="text" id="acc_0" value="6"/> <input type="text" id="vol_0" value="8"/> <input type="text" id="res_0"/>
-            <br/><hr/>
-            <input type="text" id="txt_1" value="Зевс"/>
-            <input type="text" id="spd_1" value="150"/> <input type="text" id="acc_1" value="9"/> <input type="text" id="vol_1" value="9"/> <input type="text" id="res_1"/>
-            <br/>
-            <input type="text" id="txt_2" value="Буйвол"/>
-            <input type="text" id="spd_2" value="110"/> <input type="text" id="acc_2" value="5"/> <input type="text" id="vol_2" value="7"/> <input type="text" id="res_2"/>
-            <br/>
-            <input type="text" id="txt_3" value="Коршун"/>
-            <input type="text" id="spd_3" value="100"/> <input type="text" id="acc_3" value="6"/> <input type="text" id="vol_3" value="6"/> <input type="text" id="res_3"/>
-            <br/><hr/>
-
-            <input type="text" id="txt_4" value="Один"/>
-            <input type="text" id="spd_4" value="130"/> <input type="text" id="acc_4" value="10"/> <input type="text" id="vol_4" value="6"/> <input type="text" id="res_4"/>
-            <br/>
-            <input type="text" id="txt_5" value="Дионис"/>
-            <input type="text" id="spd_5" value="150"/> <input type="text" id="acc_5" value="18"/> <input type="text" id="vol_5" value="5"/> <input type="text" id="res_5"/>
-            <br/>
-            <input type="text" id="txt_6" value="Геракл"/>
-            <input type="text" id="spd_6" value="80"/>  <input type="text" id="acc_6" value="1"/> <input type="text" id="vol_6" value="10"/> <input type="text" id="res_6"/>
-            <br/>
-            <input type="text" id="txt_7" value="Прометей"/>
-            <input type="text" id="spd_7" value="100"/>  <input type="text" id="acc_7" value="4"/> <input type="text" id="vol_7" value="8"/> <input type="text" id="res_7"/>
-            <br/>
-            <input type="text" id="txt_8" value="Осирис"/>
-            <input type="text" id="spd_8" value="120"/> <input type="text" id="acc_8" value="7"/> <input type="text" id="vol_8" value="7"/> <input type="text" id="res_8"/>
-            <br/>
-            <input type="text" id="txt_9" value="Морфей"/>
-            <input type="text" id="spd_9" value="200"/> <input type="text" id="acc_9" value="5"/> <input type="text" id="vol_9" value="13"/> <input type="text" id="res_9"/> <input type="text" id="div_9" value="2"/>
-            <br/><hr/>
-
-            <input type="text" id="txt_10" value="Слон"/>
-            <input type="text" id="spd_10" value="65"/> <input type="text" id="acc_10" value="3"/> <input type="text" id="vol_10" value="9"/> <input type="text" id="res_10"/>
-            <br/>
-            <br/><hr/>
-
-
-            <input type="text" id="txt_11" value="Апполон"/>
-            <input type="text" id="spd_11" value="95"/> <input type="text" id="acc_11" value="6"/> <input type="text" id="vol_11" value="9"/> <input type="text" id="res_11"/><br/>
-            <input type="text" id="txt_12" value="Овен"/>
-            <input type="text" id="spd_12" value="160"/> <input type="text" id="acc_12" value="19"/> <input type="text" id="vol_12" value="6"/> <input type="text" id="res_12"/><br/>
-            <input type="text" id="txt_13" value="Нептун"/>
-            <input type="text" id="spd_13" value="120"/> <input type="text" id="acc_13" value="11"/> <input type="text" id="vol_13" value="7"/> <input type="text" id="res_13"/><br/>
-            <input type="text" id="txt_14" value="Гор"/>
-            <input type="text" id="spd_14" value="110"/> <input type="text" id="acc_14" value="4"/> <input type="text" id="vol_14" value="10"/> <input type="text" id="res_14"/><br/>
-            <input type="text" id="txt_15" value="Тор"/>
-            <input type="text" id="spd_15" value="150"/> <input type="text" id="acc_15" value="15"/> <input type="text" id="vol_15" value="8"/> <input type="text" id="res_15"/><br/>
-            <input type="text" id="txt_16" value="Посейдон"/>
-            <input type="text" id="spd_16" value="220"/> <input type="text" id="acc_16" value="12"/> <input type="text" id="vol_16" value="22"/> <input type="text" id="res_16"/> <input type="text" id="div_16" value="3"/><br/>
-            <br/><hr/>
-
-
-            <input type="text" id="txt_17" value="Единорог"/>
-            <input type="text" id="spd_17" value="110"/> <input type="text" id="acc_17" value="2"/> <input type="text" id="vol_17" value="12"/> <input type="text" id="res_17"/><br/>
-            <input type="text" id="txt_18" value="Медуза"/>
-            <input type="text" id="spd_18" value="250"/> <input type="text" id="acc_18" value="20"/> <input type="text" id="vol_18" value="6"/> <input type="text" id="res_18"/><br/>
-            <input type="text" id="txt_19" value="Василиск"/>
-            <input type="text" id="spd_19" value="170"/> <input type="text" id="acc_19" value="6"/> <input type="text" id="vol_19" value="9"/> <input type="text" id="res_19"/><br/>
-            <input type="text" id="txt_20" value="Сатир"/>
-            <input type="text" id="spd_20" value="200"/> <input type="text" id="acc_20" value="1"/> <input type="text" id="vol_20" value="11"/> <input type="text" id="res_20"/><br/>
-            <input type="text" id="txt_21" value="Левиафан"/>
-            <input type="text" id="spd_21" value="100"/> <input type="text" id="acc_21" value="20"/> <input type="text" id="vol_21" value="10"/> <input type="text" id="res_21"/><br/>
-            <input type="text" id="txt_22" value="Кентавр"/>
-            <input type="text" id="spd_22" value="190"/> <input type="text" id="acc_22" value="15"/> <input type="text" id="vol_22" value="36"/> <input type="text" id="res_22"/> <input type="text" id="div_22" value="4"/><br/>
-            <br/><hr/>-->
-
             <input type="submit" id="submit"/>
         </form>
         <script type="text/javascript">

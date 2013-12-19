@@ -1,4 +1,5 @@
-{
+function train_data() {
+    return {
 "trains" : [
 	{
 		"name"		: "Исида",
@@ -9,6 +10,13 @@
 	},
 	{
 		"name"		: "hr"
+	},
+	{
+		"name"		: "Сфинкс",
+		"max_speed"	: 160,
+		"acceleration"	: 10,
+		"max_load"	: 11,
+		"slots"		: 1
 	},
 	{
 		"name"		: "Зевс",
@@ -188,4 +196,4 @@
 	}
 ]
 }
-
+}
