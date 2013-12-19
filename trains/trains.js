@@ -4,6 +4,44 @@ function trains_init() {
     trains_show();
 }
 
+function create_input(name, idx, value) {
+    return '<input type="text" id="' + name + '_' + idx + '" value="' + value + '"/>' + "\n";
+}
+
+function train_form_line(id, train) {
+    var line = create_input('txt', id, train.name) + 
+            create_input('spd', id, train.max_speed) +
+            create_input('acc', id, train.acceleration) +
+            create_input('vol', id, train.max_load) +
+            create_input('res', id, 0);
+    if (train.slots > 1) {
+        line += create_input('div', id, train.slots);
+    }
+    line += '<br/>';
+    return line;
+}
+
+function trains_load() {
+    $.getJSON("trains.json", function(data, textStatus) {
+        console.log("Json loaded " + textStatus);
+        console.log(data);
+        var items = [];
+        var idx = 0;
+        for (var i = 0; i < data.trains.length; i++) {
+            var train = data.trains[i];
+            if (train.name == 'hr') {
+                items.push("<hr/>\n");
+            } else {
+                console.log(train.name + ' ' + train.slots);
+                items.push( train_form_line(idx, train) );
+                idx++;
+            }
+        }
+        $('#trains').append(items.join(''));
+        trains_init();
+    });
+}
+
 function trains_show() {
     var n = 0;
     var ftime = 0+$('#ftime').val();

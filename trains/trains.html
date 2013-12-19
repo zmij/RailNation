@@ -16,6 +16,10 @@
             -->
             time: <input type="text" id="ftime"  value="300"/> w: <input type="text" id="wtime"  value="54"/> sec d: <input type="text" id="dist" value="?"/>
             <br/>
+            <div id="trains">
+            </div>
+
+            <!--
             <input type="text" id="txt_0" value="Исида"/>
             <input type="text" id="spd_0" value="120"/> <input type="text" id="acc_0" value="6"/> <input type="text" id="vol_0" value="8"/> <input type="text" id="res_0"/>
             <br/><hr/>
@@ -28,14 +32,7 @@
             <input type="text" id="txt_3" value="Коршун"/>
             <input type="text" id="spd_3" value="100"/> <input type="text" id="acc_3" value="6"/> <input type="text" id="vol_3" value="6"/> <input type="text" id="res_3"/>
             <br/><hr/>
-            <!--
-                Один
-                Дионис
-                Геракл
-                Прометей
-                Осирис
-                Морфей
-            -->
+
             <input type="text" id="txt_4" value="Один"/>
             <input type="text" id="spd_4" value="130"/> <input type="text" id="acc_4" value="10"/> <input type="text" id="vol_4" value="6"/> <input type="text" id="res_4"/>
             <br/>
@@ -54,10 +51,13 @@
             <input type="text" id="txt_9" value="Морфей"/>
             <input type="text" id="spd_9" value="200"/> <input type="text" id="acc_9" value="5"/> <input type="text" id="vol_9" value="13"/> <input type="text" id="res_9"/> <input type="text" id="div_9" value="2"/>
             <br/><hr/>
+
             <input type="text" id="txt_10" value="Слон"/>
             <input type="text" id="spd_10" value="65"/> <input type="text" id="acc_10" value="3"/> <input type="text" id="vol_10" value="9"/> <input type="text" id="res_10"/>
             <br/>
             <br/><hr/>
+
+
             <input type="text" id="txt_11" value="Апполон"/>
             <input type="text" id="spd_11" value="95"/> <input type="text" id="acc_11" value="6"/> <input type="text" id="vol_11" value="9"/> <input type="text" id="res_11"/><br/>
             <input type="text" id="txt_12" value="Овен"/>
@@ -71,6 +71,8 @@
             <input type="text" id="txt_16" value="Посейдон"/>
             <input type="text" id="spd_16" value="220"/> <input type="text" id="acc_16" value="12"/> <input type="text" id="vol_16" value="22"/> <input type="text" id="res_16"/> <input type="text" id="div_16" value="3"/><br/>
             <br/><hr/>
+
+
             <input type="text" id="txt_17" value="Единорог"/>
             <input type="text" id="spd_17" value="110"/> <input type="text" id="acc_17" value="2"/> <input type="text" id="vol_17" value="12"/> <input type="text" id="res_17"/><br/>
             <input type="text" id="txt_18" value="Медуза"/>
@@ -83,29 +85,13 @@
             <input type="text" id="spd_21" value="100"/> <input type="text" id="acc_21" value="20"/> <input type="text" id="vol_21" value="10"/> <input type="text" id="res_21"/><br/>
             <input type="text" id="txt_22" value="Кентавр"/>
             <input type="text" id="spd_22" value="190"/> <input type="text" id="acc_22" value="15"/> <input type="text" id="vol_22" value="36"/> <input type="text" id="res_22"/> <input type="text" id="div_22" value="4"/><br/>
-            <br/><hr/>
-            <!-- 5 эпоха, очков до крюка: 600
-                Единорог        110  2 12
-                Медуза          250 20  6
-                Василиск        170  6  9
-                Сатир           200  1 11
-                Левиафан        100 20 10
-                Кентавр         190 15 36 4
-            -->
-            <input type="submit" id="submit"/>
+            <br/><hr/>-->
 
-            <!--
-                Апполон   95  6  9
-                Овен     160 19  6
-                Нептун   120 11  7
-                Гор      110  4 10
-                Тор      150 15  8
-                Посейдон 220 12 22
-            -->
+            <input type="submit" id="submit"/>
         </form>
         <script type="text/javascript">
             $(document).ready(function() {
-                    trains_init();
+                    trains_load();
             });
         </script>
     </body>
