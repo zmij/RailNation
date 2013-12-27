@@ -928,6 +928,14 @@ try {
 	    processStation(null, logBuildingLevels);
 	}
 	);    
+
+    GM_registerMenuCommand('Test!', function(e) {
+        postCommand("ResearchInterface", "researchTechnology", [220001, 20], function() {
+            alert(42);
+        });
+    });    
+    
+
 } catch (e) {
     console.error(e);
 }
