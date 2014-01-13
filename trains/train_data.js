@@ -2,10 +2,10 @@ function train_data() {
     return {
 "trains" : [
 	{
-		"name"		: "Исида",
-		"max_speed"	: 120,
-		"acceleration"	: 6,
-		"max_load"	: 8,
+		"name"		: "Валькирья",
+		"max_speed"	: 300,
+		"acceleration"	: 10,
+		"max_load"	: 14,
 		"slots"		: 1
 	},
 	{
@@ -23,6 +23,13 @@ function train_data() {
 		"max_speed"	: 150,
 		"acceleration"	: 9,
 		"max_load"	: 9,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Исида",
+		"max_speed"	: 120,
+		"acceleration"	: 6,
+		"max_load"	: 8,
 		"slots"		: 1
 	},
 	{
@@ -190,6 +197,51 @@ function train_data() {
 		"acceleration"	: 15,
 		"max_load"	: 36,
 		"slots"		: 4
+	},
+	{
+		"name"		: "hr"
+	},
+	{
+		"name"		: "Огр",
+		"max_speed"	: 120,
+		"acceleration"	: 15,
+		"max_load"	: 13,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Феникс",
+		"max_speed"	: 240,
+		"acceleration"	: 2,
+		"max_load"	: 14,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Пегас",
+		"max_speed"	: 130,
+		"acceleration"	: 4,
+		"max_load"	: 15,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Удав",
+		"max_speed"	: 180,
+		"acceleration"	: 10,
+		"max_load"	: 15,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Гидра",
+		"max_speed"	: 90,
+		"acceleration"	: 1,
+		"max_load"	: 23,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Олимп",
+		"max_speed"	: 150,
+		"acceleration"	: 12,
+		"max_load"	: 85,
+		"slots"		: 5
 	},
 	{
 		"name"		: "hr"
