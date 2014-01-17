@@ -1,3 +1,4 @@
+// vim:noexpandtab:ts=8:
 function train_data() {
     return {
 "trains" : [
@@ -8,9 +9,7 @@ function train_data() {
 		"max_load"	: 14,
 		"slots"		: 1
 	},
-	{
-		"name"		: "hr"
-	},
+	{	"name"		: "hr" },
 	{
 		"name"		: "Сфинкс",
 		"max_speed"	: 160,
@@ -46,8 +45,70 @@ function train_data() {
 		"max_load"	: 6,
 		"slots"		: 1
 	},
+	{	"name"		: "hr" },
 	{
-		"name"		: "hr"
+		"name"		: "Ласточка",
+		"max_speed"	: 60,
+		"acceleration"	: 9,
+		"max_load"	: 3,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Ворон",
+		"max_speed"	: 85,
+		"acceleration"	: 2,
+		"max_load"	: 4,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Носорог",
+		"max_speed"	: 70,
+		"acceleration"	: 18,
+		"max_load"	: 4,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Осел",
+		"max_speed"	: 60,
+		"acceleration"	: 2,
+		"max_load"	: 7,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Сокол",
+		"max_speed"	: 160,
+		"acceleration"	: 19,
+		"max_load"	: 4,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Крот",
+		"max_speed"	: 120,
+		"acceleration"	: 10,
+		"max_load"	: 5,
+		"slots"		: 1
+	},
+	{	"name"		: "hr" },
+	{
+		"name"		: "Летучая мышь",
+		"max_speed"	: 85,
+		"acceleration"	: 13,
+		"max_load"	: 6,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Пантера",
+		"max_speed"	: 180,
+		"acceleration"	: 3,
+		"max_load"	: 5,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Гризли",
+		"max_speed"	: 75,
+		"acceleration"	: 13,
+		"max_load"	: 7,
+		"slots"		: 1
 	},
 	{
 		"name"		: "Рысь",
@@ -57,15 +118,20 @@ function train_data() {
 		"slots"		: 1
 	},
 	{
+		"name"		: "Вепрь",
+		"max_speed"	: 120,
+		"acceleration"	: 9,
+		"max_load"	: 6,
+		"slots"		: 1
+	},
+	{
 		"name"		: "Слон",
 		"max_speed"	: 65,
 		"acceleration"	: 3,
 		"max_load"	: 9,
 		"slots"		: 1
 	},
-	{
-		"name"		: "hr"
-	},
+	{	"name"		: "hr" },
 	{
 		"name"		: "Один",
 		"max_speed"	: 130,
@@ -108,9 +174,7 @@ function train_data() {
 		"max_load"	: 13,
 		"slots"		: 2
 	},
-	{
-		"name"		: "hr"
-	},
+	{	"name"		: "hr" },
 	{
 		"name"		: "Аполлон",
 		"max_speed"	: 95,
@@ -153,9 +217,7 @@ function train_data() {
 		"max_load"	: 22,
 		"slots"		: 3
 	},
-	{
-		"name"		: "hr"
-	},
+	{	"name"		: "hr" },
 	{
 		"name"		: "Единорог",
 		"max_speed"	: 110,
@@ -198,9 +260,7 @@ function train_data() {
 		"max_load"	: 36,
 		"slots"		: 4
 	},
-	{
-		"name"		: "hr"
-	},
+	{	"name"		: "hr" },
 	{
 		"name"		: "Огр",
 		"max_speed"	: 120,
@@ -243,9 +303,7 @@ function train_data() {
 		"max_load"	: 85,
 		"slots"		: 5
 	},
-	{
-		"name"		: "hr"
-	}
+	{	"name"		: "hr" }
 ]
 }
 }
