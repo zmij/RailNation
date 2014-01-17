@@ -7,14 +7,15 @@ function train_data() {
 		"max_speed"	: 300,
 		"acceleration"	: 10,
 		"max_load"	: 14,
+		"epoch"		: 6,
 		"slots"		: 1
 	},
-	{	"name"		: "hr" },
 	{
 		"name"		: "Сфинкс",
 		"max_speed"	: 160,
 		"acceleration"	: 10,
 		"max_load"	: 11,
+		"epoch"		: 5,
 		"slots"		: 1
 	},
 	{
@@ -22,6 +23,7 @@ function train_data() {
 		"max_speed"	: 150,
 		"acceleration"	: 9,
 		"max_load"	: 9,
+		"epoch"		: 4,
 		"slots"		: 1
 	},
 	{
@@ -29,6 +31,7 @@ function train_data() {
 		"max_speed"	: 120,
 		"acceleration"	: 6,
 		"max_load"	: 8,
+		"epoch"		: 3,
 		"slots"		: 1
 	},
 	{
@@ -36,6 +39,7 @@ function train_data() {
 		"max_speed"	: 110,
 		"acceleration"	: 5,
 		"max_load"	: 7,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{
@@ -43,6 +47,7 @@ function train_data() {
 		"max_speed"	: 100,
 		"acceleration"	: 6,
 		"max_load"	: 6,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{	"name"		: "hr" },
@@ -51,6 +56,7 @@ function train_data() {
 		"max_speed"	: 60,
 		"acceleration"	: 9,
 		"max_load"	: 3,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{
@@ -58,6 +64,7 @@ function train_data() {
 		"max_speed"	: 85,
 		"acceleration"	: 2,
 		"max_load"	: 4,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{
@@ -65,6 +72,7 @@ function train_data() {
 		"max_speed"	: 70,
 		"acceleration"	: 18,
 		"max_load"	: 4,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{
@@ -72,6 +80,7 @@ function train_data() {
 		"max_speed"	: 60,
 		"acceleration"	: 2,
 		"max_load"	: 7,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{
@@ -79,6 +88,7 @@ function train_data() {
 		"max_speed"	: 160,
 		"acceleration"	: 19,
 		"max_load"	: 4,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{
@@ -86,6 +96,7 @@ function train_data() {
 		"max_speed"	: 120,
 		"acceleration"	: 10,
 		"max_load"	: 5,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{	"name"		: "hr" },
@@ -94,6 +105,7 @@ function train_data() {
 		"max_speed"	: 85,
 		"acceleration"	: 13,
 		"max_load"	: 6,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{
@@ -101,6 +113,7 @@ function train_data() {
 		"max_speed"	: 180,
 		"acceleration"	: 3,
 		"max_load"	: 5,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{
@@ -108,6 +121,7 @@ function train_data() {
 		"max_speed"	: 75,
 		"acceleration"	: 13,
 		"max_load"	: 7,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{
@@ -115,6 +129,7 @@ function train_data() {
 		"max_speed"	: 160,
 		"acceleration"	: 17,
 		"max_load"	: 5,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{
@@ -122,6 +137,7 @@ function train_data() {
 		"max_speed"	: 120,
 		"acceleration"	: 9,
 		"max_load"	: 6,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{
@@ -129,6 +145,7 @@ function train_data() {
 		"max_speed"	: 65,
 		"acceleration"	: 3,
 		"max_load"	: 9,
+		"epoch"		: 2,
 		"slots"		: 1
 	},
 	{	"name"		: "hr" },
@@ -137,6 +154,7 @@ function train_data() {
 		"max_speed"	: 130,
 		"acceleration"	: 10,
 		"max_load"	: 6,
+		"epoch"		: 3,
 		"slots"		: 1
 	},
 	{
@@ -144,6 +162,7 @@ function train_data() {
 		"max_speed"	: 150,
 		"acceleration"	: 18,
 		"max_load"	: 5,
+		"epoch"		: 3,
 		"slots"		: 1
 	},
 	{
@@ -151,6 +170,7 @@ function train_data() {
 		"max_speed"	: 80,
 		"acceleration"	: 1,
 		"max_load"	: 10,
+		"epoch"		: 3,
 		"slots"		: 1
 	},
 	{
@@ -158,6 +178,7 @@ function train_data() {
 		"max_speed"	: 100,
 		"acceleration"	: 4,
 		"max_load"	: 8,
+		"epoch"		: 3,
 		"slots"		: 1
 	},
 	{
@@ -165,6 +186,7 @@ function train_data() {
 		"max_speed"	: 120,
 		"acceleration"	: 7,
 		"max_load"	: 7,
+		"epoch"		: 3,
 		"slots"		: 1
 	},
 	{
@@ -172,6 +194,7 @@ function train_data() {
 		"max_speed"	: 200,
 		"acceleration"	: 5,
 		"max_load"	: 13,
+		"epoch"		: 3,
 		"slots"		: 2
 	},
 	{	"name"		: "hr" },
@@ -180,6 +203,7 @@ function train_data() {
 		"max_speed"	: 95,
 		"acceleration"	: 6,
 		"max_load"	: 9,
+		"epoch"		: 4,
 		"slots"		: 1
 	},
 	{
@@ -187,6 +211,7 @@ function train_data() {
 		"max_speed"	: 160,
 		"acceleration"	: 19,
 		"max_load"	: 6,
+		"epoch"		: 4,
 		"slots"		: 1
 	},
 	{
@@ -194,6 +219,7 @@ function train_data() {
 		"max_speed"	: 120,
 		"acceleration"	: 11,
 		"max_load"	: 7,
+		"epoch"		: 4,
 		"slots"		: 1
 	},
 	{
@@ -201,6 +227,7 @@ function train_data() {
 		"max_speed"	: 110,
 		"acceleration"	: 4,
 		"max_load"	: 10,
+		"epoch"		: 4,
 		"slots"		: 1
 	},
 	{
@@ -208,6 +235,7 @@ function train_data() {
 		"max_speed"	: 150,
 		"acceleration"	: 15,
 		"max_load"	: 8,
+		"epoch"		: 4,
 		"slots"		: 1
 	},
 	{
@@ -215,6 +243,7 @@ function train_data() {
 		"max_speed"	: 220,
 		"acceleration"	: 12,
 		"max_load"	: 22,
+		"epoch"		: 4,
 		"slots"		: 3
 	},
 	{	"name"		: "hr" },
@@ -223,6 +252,7 @@ function train_data() {
 		"max_speed"	: 110,
 		"acceleration"	: 2,
 		"max_load"	: 12,
+		"epoch"		: 5,
 		"slots"		: 1
 	},
 	{
@@ -230,6 +260,7 @@ function train_data() {
 		"max_speed"	: 250,
 		"acceleration"	: 20,
 		"max_load"	: 6,
+		"epoch"		: 5,
 		"slots"		: 1
 	},
 	{
@@ -237,6 +268,7 @@ function train_data() {
 		"max_speed"	: 170,
 		"acceleration"	: 6,
 		"max_load"	: 9,
+		"epoch"		: 5,
 		"slots"		: 1
 	},
 	{
@@ -244,6 +276,7 @@ function train_data() {
 		"max_speed"	: 200,
 		"acceleration"	: 1,
 		"max_load"	: 11,
+		"epoch"		: 5,
 		"slots"		: 1
 	},
 	{
@@ -251,6 +284,7 @@ function train_data() {
 		"max_speed"	: 100,
 		"acceleration"	: 20,
 		"max_load"	: 10,
+		"epoch"		: 5,
 		"slots"		: 1
 	},
 	{
@@ -258,6 +292,7 @@ function train_data() {
 		"max_speed"	: 190,
 		"acceleration"	: 15,
 		"max_load"	: 36,
+		"epoch"		: 5,
 		"slots"		: 4
 	},
 	{	"name"		: "hr" },
@@ -266,6 +301,7 @@ function train_data() {
 		"max_speed"	: 120,
 		"acceleration"	: 15,
 		"max_load"	: 13,
+		"epoch"		: 6,
 		"slots"		: 1
 	},
 	{
@@ -273,6 +309,7 @@ function train_data() {
 		"max_speed"	: 240,
 		"acceleration"	: 2,
 		"max_load"	: 14,
+		"epoch"		: 6,
 		"slots"		: 1
 	},
 	{
@@ -280,6 +317,7 @@ function train_data() {
 		"max_speed"	: 130,
 		"acceleration"	: 4,
 		"max_load"	: 15,
+		"epoch"		: 6,
 		"slots"		: 1
 	},
 	{
@@ -287,6 +325,7 @@ function train_data() {
 		"max_speed"	: 180,
 		"acceleration"	: 10,
 		"max_load"	: 15,
+		"epoch"		: 6,
 		"slots"		: 1
 	},
 	{
@@ -294,6 +333,7 @@ function train_data() {
 		"max_speed"	: 90,
 		"acceleration"	: 1,
 		"max_load"	: 23,
+		"epoch"		: 6,
 		"slots"		: 1
 	},
 	{
@@ -301,6 +341,7 @@ function train_data() {
 		"max_speed"	: 150,
 		"acceleration"	: 12,
 		"max_load"	: 85,
+		"epoch"		: 6,
 		"slots"		: 5
 	},
 	{	"name"		: "hr" }
