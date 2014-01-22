@@ -79,8 +79,13 @@ function dist_to_max( max_speed, acc ) {
 function time_to_dist( d, max_speed, acc ) {
     var dmax = dist_to_max( max_speed, acc );
     var t = 0;
-    if( dmax < d ) t = (d-dmax) / (max_speed*1000/3600);
-    t += sec_to_max( max_speed, acc );
+    if( dmax <= d ) {
+        t = (d-dmax) / (max_speed*1000/3600);
+        t += sec_to_max( max_speed, acc );
+    }
+    else {
+        t = Math.sqrt(d*2*3600/1000/acc);
+    }
     return t;
 }
 
