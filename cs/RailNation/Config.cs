@@ -14,7 +14,7 @@ namespace RailNation
         public const string APP_INST     = "meta";
         public const string REGION_ID    = "europe";
         public const string COUNTRY_ID   = "ru";
-        public const string SERVER_ID    = "railnation-ru-rn20rus4";
+        public const string SERVER_ID    = "railnation-ru-rn16rus2";
         private const string URL_FMT     = 
             "{0}/iframe/{1}/applicationId/{2}/applicationCountryId/{3}/applicationInstanceId/{4}/userParam/undefined/";
 

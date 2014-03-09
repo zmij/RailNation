@@ -5616,5 +5616,705 @@
         <seg>Menina d'Oiro</seg>
       </tuv>
     </tu>
+	    <tu tuid="IDS_CITY_NAME_001_17">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Нью-Анджелес</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Лос-Франциско</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Ростов-на-Майні</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Порт-о-Локо</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Комотоп</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Хрещатськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Хмельнопіль</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Простопетровськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Лугадонськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Рівнолуськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Староволинськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Санкт-Котебург</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Прямий Ріг</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Рішельєвськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Зурбаган</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Бахчірополь</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Нью Васюки</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Змійгород</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Михолаїв</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Старий Порт</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Надпоріжськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Кучугур</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Ґарків</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Хорсон</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Козацьк</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Уч-Кудук</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Лембург</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Чучуїв</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Кремен</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Шанчай</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Гон Гонг</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Мастердам</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Еміратськ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Гельсін</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Копенгольм</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Доронто</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Мекіко</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Форт Готем</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Марсборо</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Сан-Маджуро</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Спрінгвілль</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Ель-Дабі</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Бірут</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Олд Делі</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Честерфілд</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Кірен</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Люксемберг</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Сан-Фуего</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Аламбо</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_17">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="uk-UA">
+        <seg>Корусант</seg>
+      </tuv>
+    </tu>
+	    <tu tuid="IDS_CITY_NAME_001_18">
+      <prop type="x-target">Both</prop>
+      <note>THESE ARE CITY NAMES IN THE GAME; character limit 30</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Przemysłowice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_002_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wyciszyn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_003_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Kobzia Królewska</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_004_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Jarząbki Zdrojowe</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_005_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wilkoły</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_006_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wiatrołaki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_007_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Leszczynowice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_008_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Dębineczka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_009_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Łodzianków</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_010_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Zegarowice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_011_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Podkopałka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_012_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wykopanka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_013_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Trybulisko</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_014_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Ludownice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_015_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Chyże Topory</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_016_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Miłajkówka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_017_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Czystawka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_018_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Topolanki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_019_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wąsawce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_020_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Radawniki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_021_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Latarniki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_022_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Mułki Niewielkie</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_023_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Gorolice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_024_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Rudzielczyki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_025_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Zapomnice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_026_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Mieszajowce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_027_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Zielonówka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_028_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wschodnik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_029_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Bielnica</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_030_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Żółcianka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_031_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Marszałkowice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_032_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Kosznice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_033_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Chomiczniki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_034_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Berki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_035_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Czembierzyce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_036_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Dmuchowce Stare</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_037_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Fambork</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_038_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Grabie Wrony</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_039_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Jukło</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_040_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Krupczanki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_041_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Lembertów</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_042_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Wólanki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_043_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Mąty Wysokie</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_044_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Nakuszyce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_045_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Ormianowice</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_046_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Pratczawki</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_047_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Rusowce</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_048_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Swadowiec</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_049_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Zgodno</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDS_CITY_NAME_050_18">
+      <prop type="x-target">Both</prop>
+      <note>city name</note>
+            <tuv xml:lang="pl-PL">
+        <seg>Zakrów</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

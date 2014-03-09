@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace RailNation
 {
@@ -28,20 +29,21 @@ namespace RailNation
             return 0;
         }
 
+        private static Regex TRAIN_ERA_RE = new Regex("[1,3](\\d)\\d{4,4}");
+
         public static int era(this EngineType eng)
         {
             int num = (int)eng;
-            if (num <= 0)
-                return 0;
-            if (num <= 30)
-                return (int)Math.Floor( (double)((num - 1) / 5) ) + 1;
-            if (num <= 37)
-                return num - 30;
-            if (num == 38)
-                return 6;
+            String engine = num.ToString();
+            Match m = TRAIN_ERA_RE.Match(engine);
+            if (m.Success)
+            {
+                return int.Parse(m.Groups[1].Value);
+            }
             return 0;
         }
 
+        // TODO Check hooks 
         public static bool canHaul(this EngineType e, ProductType p)
         {
             return e.era() >= p.era();

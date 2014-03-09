@@ -46,6 +46,8 @@ namespace RailNation
         private RailGraph rails_ = new RailGraph();
         private WaggonList waggons_ = new WaggonList();
 
+        private HashSet<int> technologies_ = new HashSet<int>();
+
         public enum State
         {
             NotLoggedIn = 0,
@@ -452,12 +454,12 @@ namespace RailNation
 
                                             LoginState = State.LoggedIn;
                                             Trace.TraceInformation("{0} logged into RN game with avatar {1}", email_, avatarName_);
-                                            refresh();
+                                            refresh(true);
                                             return true;
                                         }
                                         else
                                         {
-                                            refreshData();
+                                            refreshData(true);
                                             if (!String.IsNullOrEmpty(id_))
                                             {
                                                 LoginState = State.LoggedIn;
@@ -504,11 +506,11 @@ namespace RailNation
             }
         }
 
-        public void refresh()
+        public void refresh(bool firstRun = false)
         {
             try
             {
-                refreshData();
+                refreshData(firstRun);
                 refreshRails();
                 refreshTrains();
             }
@@ -518,12 +520,12 @@ namespace RailNation
             }
         }
 
-        public void refreshData()
+        public void refreshData(bool firstRun = false)
         {
             lock (this)
             {
                 JObject tok = null;
-                if (!String.IsNullOrEmpty(id_))
+                if (!String.IsNullOrEmpty(id_) && !firstRun)
                 {
                     tok = commander_.exec<JObject>("GUIInterface", "get_gui", new List<object>() { id_ });
                 }
@@ -542,7 +544,20 @@ namespace RailNation
                         Prestige = int.Parse(tok["resources"]["3"]["amount"].ToString());
                         Lab = int.Parse(tok["resources"]["4"]["amount"].ToString());
                     }
-                    if (tok["corporation"] != null && tok["corporation"]["name"] != null)
+                    if (tok["technologies"] != null)
+                    {
+                        JEnumerable<JProperty> techlist = tok["technologies"]["techs"].Children<JProperty>();
+                        Regex is_number = new Regex("^\\d+$");
+                        foreach (JProperty tech in techlist)
+                        {
+                            if (is_number.IsMatch(tech.Name) && tech.Value["finished"].ToObject<bool>())
+                            {
+                                int techId = int.Parse(tech.Name);
+                                technologies_.Add(techId);
+                            }
+                        }
+                    }
+                    if (tok["corporation"] != null && tok["corporation"] is JObject && tok["corporation"]["name"] != null)
                     {
                         Corporation = tok["corporation"]["name"].ToString();
                     }
@@ -674,7 +689,7 @@ namespace RailNation
                         {
                             wc.Count = 0;
                         }
-                        wc.MaxHaul = totalHaulCapacity(wc.Type.era());
+                        //wc.MaxHaul = totalHaulCapacity(wc.Type.era());
                     }
                 }
                 OnPropertyChanged("Waggons");
@@ -714,8 +729,28 @@ namespace RailNation
             }
         }
 
+        public bool hasTechnology(int techId)
+        {
+            return technologies_.Contains(techId);
+        }
+
+        public bool hasCouplingFor(int era)
+        {
+            if (era > 1)
+            {
+                TrainUpgrade tu = TrainUpgrade.getCouplingTech(era - 1);
+                if (tu != null)
+                {
+                    return hasTechnology(tu.Id);
+                }
+            }
+            return false;
+        }
+
         public int totalHaulCapacity(int era)
         {
+            if (hasCouplingFor(era))
+                --era;
             return trains_.Where(t => t.Era >= era).Sum(t => t.MaxWaggons);
         }
 
@@ -819,6 +854,8 @@ namespace RailNation
             //waggons_.Where(w => w.Type);
             lock (this)
             {
+                if (hasCouplingFor(min_engine_era))
+                    --min_engine_era;
                 Debug.Print("Route length for user {0} is {1}", UserName, route.Count);
                 IEnumerable<Train> trains = trains_.Where(t => t.Era >= min_engine_era && (condition == null || condition(t))).
                     OrderByDescending(t => t.MaxWaggons);

@@ -65,15 +65,7 @@ namespace RailNation
         {
             get
             {
-                return maxHaul_;
-            }
-            set
-            {
-                if (maxHaul_ != value)
-                {
-                    maxHaul_ = value;
-                    OnPropertyChanged("MaxHaul");
-                }
+                return owner_.totalHaulCapacity(Type.era());
             }
         }
 

@@ -32,6 +32,9 @@ namespace RailNation
         private DateTime mechanicEnd_ = DateTime.Now;
         private DateTime boostEnd_ = DateTime.Now;
 
+        private HashSet<int> appliedUpgrades_ = new HashSet<int>();
+        private TrainStats stats_;
+
         public delegate bool Condition(Train t);
 
         public Train(GameCommander commander, JToken tok)
@@ -128,7 +131,22 @@ namespace RailNation
         {
             get
             {
+                TrainStats stats = Stats;
+                if (stats != null)
+                    return stats.MaxWaggons;
                 return maxWaggons_;
+            }
+        }
+
+        public TrainStats Stats
+        {
+            get
+            {
+                if (stats_ == null)
+                {
+                    stats_ = TrainStats.getStats(type_, appliedUpgrades_);
+                }
+                return stats_;
             }
         }
 
@@ -303,23 +321,11 @@ namespace RailNation
                 BoostEnd = DateTime.Now.AddSeconds(boostEnd);
             }
 
-            if (tok["upgrades"] != null && tok["upgrades"] is JArray)
-            {
-                JArray upgrades = tok["upgrades"] as JArray;
-                if (upgrades.Count > 0)
-                {
-                    //Debug.Print(upgrades.ToString());
-                    if (type_ == EngineType.LernaeanHydra)
-                    {
-                        maxWaggons_ = baseNumWaggons_ + 3;
-                    }
-                }
-            }
-
             if (tok["waggons"] != null)
             {
                 load_.refresh(tok["waggons"]);
-                if( baseNumWaggons_ > maxWaggons_ ) {
+                if (baseNumWaggons_ > maxWaggons_)
+                {
                     maxWaggons_ = baseNumWaggons_;
                 }
                 if (load_.MaxLoad > maxWaggons_)
@@ -328,6 +334,30 @@ namespace RailNation
                 }
                 OnPropertyChanged("Load");
             }
+
+            if (tok["upgrades"] != null && tok["upgrades"] is JArray)
+            {
+                JArray upgrades = tok["upgrades"] as JArray;
+                if (upgrades.Count > 0)
+                {
+                    int new_ups = 0;
+                    foreach (JToken u in upgrades)
+                    {
+                        int uid = u["id"].ToObject<int>();
+                        if (!appliedUpgrades_.Contains(uid))
+                        {
+                            appliedUpgrades_.Add(uid);
+                            ++new_ups;
+                        }
+                    }
+                    if (new_ups > 0)
+                    {
+                        stats_ = null;
+                        OnPropertyChanged("Stats");
+                    }
+                }
+            }
+
             if (tok["navigation"] != null)
             {
                 CurrentLocationId = tok["navigation"]["current_location_id"].ToString();
