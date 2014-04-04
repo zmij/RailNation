@@ -44,12 +44,15 @@ function trains_load() {
 
 function trains_show() {
     var n = 0;
-    var ftime = 0+$('#ftime').val();
     var w = 0+$('#wtime').val();
-    var mtime = 0+(ftime-w)/2;
-    var d = Math.round(dist_from_time( mtime, $('#spd_0').val(), $('#acc_0').val() ) / 125) * 125;
-    $('#dist').val( d );
-    console.log(d);
+
+    // Старый расчет дистанции
+    // var ftime = 0+$('#ftime').val();
+    // var mtime = 0+(ftime-w)/2;
+    // var d = Math.round(dist_from_time( mtime, $('#spd_0').val(), $('#acc_0').val() ) / 125) * 125;
+    // $('#dist').val( d );
+
+    var d = 0+$('#dist').val();
 
     var out = [];
     while($('#acc_' + n).val()) {
