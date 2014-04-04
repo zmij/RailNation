@@ -14,7 +14,7 @@ function train_form_line(id, train) {
              +  create_input('acc', id, train.acceleration)
              +  create_input('vol', id, train.max_load)
              +  create_input('res', id, 0)
-             +  create_input('r80', id, 0)
+             +  create_input('r70', id, 0)
              ;
     if (train.slots > 1) {
         line += create_input('div', id, train.slots);
@@ -56,16 +56,16 @@ function trains_show() {
         var txt = $('#txt_' + n).val();
         var acc = $('#acc_' + n).val();
         var spd = $('#spd_' + n).val();
-        var s80 = 0.8 * $('#spd_' + n).val();
+        var s70 = 0.7 * $('#spd_' + n).val();
         var vol = $('#vol_' + n).val();
         var div = $('#div_' + n).val() || 1;
         var circle_time = 2*time_to_dist(d, spd, acc) + 1*w;
-        var c80         = 2*time_to_dist(d, s80, acc) + 1*w;
+        var c70         = 2*time_to_dist(d, s70, acc) + 1*w;
         var volume      = Math.floor(10*vol*3600/circle_time/div)/10;
-        var volume80    = Math.floor(10*vol*3600/c80        /div)/10;
+        var volume70    = Math.floor(10*vol*3600/c70        /div)/10;
         console.log(txt + ' ' + circle_time);
         $('#res_' + n).val( volume   );
-        $('#r80_' + n).val( volume80 );
+        $('#r70_' + n).val( volume70 );
         out[n] = [ txt, spd, acc, volume ];
         n++;
     }
