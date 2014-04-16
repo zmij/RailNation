@@ -3,55 +3,6 @@ function train_data() {
     return {
 "trains" : [
 	{
-		"name"		: "Валькирья",
-		"max_speed"	: 300,
-		"acceleration"	: 10,
-		"max_load"	: 14,
-		"epoch"		: 6,
-		"slots"		: 1
-	},
-	{
-		"name"		: "Сфинкс",
-		"max_speed"	: 160,
-		"acceleration"	: 10,
-		"max_load"	: 11,
-		"epoch"		: 5,
-		"slots"		: 1
-	},
-	{
-		"name"		: "Зевс",
-		"max_speed"	: 150,
-		"acceleration"	: 9,
-		"max_load"	: 9,
-		"epoch"		: 4,
-		"slots"		: 1
-	},
-	{
-		"name"		: "Исида",
-		"max_speed"	: 120,
-		"acceleration"	: 6,
-		"max_load"	: 8,
-		"epoch"		: 3,
-		"slots"		: 1
-	},
-	{
-		"name"		: "Буйвол",
-		"max_speed"	: 110,
-		"acceleration"	: 5,
-		"max_load"	: 7,
-		"epoch"		: 2,
-		"slots"		: 1
-	},
-	{
-		"name"		: "Коршун",
-		"max_speed"	: 100,
-		"acceleration"	: 6,
-		"max_load"	: 6,
-		"epoch"		: 1,
-		"slots"		: 1
-	},
-	{	"name"		: "hr" },
-	{
 		"name"		: "Ласточка",
 		"max_speed"	: 60,
 		"acceleration"	: 9,
@@ -343,6 +294,63 @@ function train_data() {
 		"max_load"	: 85,
 		"epoch"		: 6,
 		"slots"		: 5
+	},
+	{	"name"		: "hr" },
+	{
+		"name"		: "Титан",
+		"max_speed"	: 50,
+		"acceleration"	: 1,
+		"max_load"	: 40,
+		"epoch"		: 7,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Валькирья",
+		"max_speed"	: 300,
+		"acceleration"	: 10,
+		"max_load"	: 14,
+		"epoch"		: 6,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Сфинкс",
+		"max_speed"	: 160,
+		"acceleration"	: 10,
+		"max_load"	: 11,
+		"epoch"		: 5,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Зевс",
+		"max_speed"	: 150,
+		"acceleration"	: 9,
+		"max_load"	: 9,
+		"epoch"		: 4,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Исида",
+		"max_speed"	: 120,
+		"acceleration"	: 6,
+		"max_load"	: 8,
+		"epoch"		: 3,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Буйвол",
+		"max_speed"	: 110,
+		"acceleration"	: 5,
+		"max_load"	: 7,
+		"epoch"		: 2,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Коршун",
+		"max_speed"	: 100,
+		"acceleration"	: 6,
+		"max_load"	: 6,
+		"epoch"		: 1,
+		"slots"		: 1
 	},
 	{	"name"		: "hr" }
 ]
