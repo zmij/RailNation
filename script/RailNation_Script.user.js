@@ -4,8 +4,8 @@
 // @description Bulk train commands, numbers watching. WARNING!!! Consumes a lot of gold!
 // @include     http://*.railnation.ru/web/?key=*
 // @version     1.4.0.1
-// @downloadURL	https://dl.dropboxusercontent.com/u/13257583/RailNation_Script.user.js
-// @updateURL	https://dl.dropboxusercontent.com/u/13257583/RailNation_Script.user.js
+// @downloadURL	https://github.com/Vany/RailNation/raw/master/script/RailNation_Script.user.js
+// @updateURL	https://github.com/Vany/RailNation/raw/master/script/RailNation_Script.user.js
 // @author		sergei.a.fedorov at gmail dot com
 // @require     http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js
 // @grant       GM_getValue
@@ -508,7 +508,7 @@ function collectBonuses ( member, station ) {
                     }
                 );
             },
-            (next + 1) * 1000
+            (next * 1000 + 200)
         );
     }
 }
@@ -765,7 +765,7 @@ postCommand(
     	processTrains( 
     		'doMaintenance', 
     		function( train ) {
-    			return train.reliability < 94 && needsMaintenance(train);
+    			return train.reliability < GM_getValue( 'LastReliability', 90 ) && needsMaintenance(train);
     		}, 
     		null 
     	);
@@ -928,6 +928,14 @@ try {
 	    processStation(null, logBuildingLevels);
 	}
 	);    
+
+    GM_registerMenuCommand('Test!', function(e) {
+        postCommand("ResearchInterface", "researchTechnology", [220001, 20], function() {
+            alert(42);
+        });
+    });    
+    
+
 } catch (e) {
     console.error(e);
 }
